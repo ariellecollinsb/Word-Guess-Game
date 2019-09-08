@@ -10,7 +10,7 @@ var  wordsEasy = ["host","logo","code","ford","claw",
 
 var wordsHard = ["academic","software","variable","database","absolute",
                 "firewall","graduate","homepage","intranet","keyboard"]              
-var mode = "";
+var mode = "easy";
 var currentAnswer= [];
 var userGuess =[];
 

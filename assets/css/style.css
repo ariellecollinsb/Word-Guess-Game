@@ -12,7 +12,24 @@ h1 {
 h2 {
     text-align: center;
 }
-
+.clearfix {
+    clear: both;
+}
 p {
+    background-color: #ccc;
+    color: #101;
     text-align: center;
 }
+
+nav {
+    background-color: darkcyan;
+    border: 2px solid #ccc;
+}
+#start-button {
+    text-align: center;
+    margin: 0 auto;
+    padding:20px;
+    border: 30px;
+}
+
+

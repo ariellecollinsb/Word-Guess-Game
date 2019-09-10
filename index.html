@@ -16,21 +16,35 @@
             WORD GAME
         </h1>
     </header>
-
+    
+    <div>
     <h2>Let's Play!</h2>
-    <br>
-    <br>
+    <!--<p class="you-win">
+       You Win! <img alt="" href="https://i.kym-cdn.com/photos/images/newsfeed/000/330/657/c4d.png">
+    </p>
+    </div>-->
 
-    <p>Pick your poison!</p>
+    <br>
+    <br>
     <br>
     <br>
     <nav>
-        <div id="start-button"><button>START</button></div>
+        <div class="container"><button id="start-button">START</button></div>
          
     </nav>
 
+    <section id="counters">
+    <p>Wins:<span class="wins"></span></p>
+    <p>Losses:<span class="losses"></span></p>
+    <p>Lives:<span class="lives"></span></p>
+    </section>
+
     <section id="matches"></section>
 
+    <nav>
+        <div></div>
+         
+    </nav>
 
 </body>
 <script src="assets/javascript/game.js"></script>

@@ -12,24 +12,37 @@ h1 {
 h2 {
     text-align: center;
 }
-.clearfix {
-    clear: both;
-}
+
+
 p {
     background-color: #ccc;
     color: #101;
     text-align: center;
 }
 
+/*.you-win {
+    float: left;
+}*/
+
+.you-loose {
+    float: right;
+}
 nav {
     background-color: darkcyan;
     border: 2px solid #ccc;
 }
-#start-button {
+.container {
     text-align: center;
     margin: 0 auto;
     padding:20px;
     border: 30px;
 }
 
+#matches {
+    text-align: center;
+    border: 3px solid #ccc;
+    padding: 30px;
+    background-color: #ccc;
+    color: #000;
+}
 
